@@ -1,0 +1,171 @@
+.adress-top {
+    padding-top: 44px;
+}
+    .adress-top-left {
+        display: inline-block;
+        float: left;
+        width: 75%;
+    }
+        .adress-title {
+            display: inline-block;
+            margin: 0px;
+            color: rgb(0, 0, 0);
+            font-size: 36px;
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+        }
+        .adress-input {
+            line-height: 41px;
+            margin-right: 15px;
+            margin-top: 40px;
+            width: 400px;
+            cursor: pointer;
+            height: 40px;
+            color: black;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+            outline: none;
+            padding: 0 12px;
+            margin-bottom: 10px;
+        }
+        .adress-map {
+            display: inline-block;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            background-color: #fdefe6;
+            text-align: center;
+            color: rgb(209, 87, 0);
+            font-weight: 500;
+            cursor: pointer;
+            min-width: 120px;
+            height: 37px;
+            padding: 8px 20px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-right: 20px;
+        }
+        .adress-check {
+            display: inline-block;
+            float: left;
+            width: 75%;
+        }
+            .adress-check-1, .adress-check-2 {
+                display: inline-block;
+                float: left;
+            }
+            .adress-check-1 div {
+                display: inline-block;
+                float: right;
+                margin-right: 10px;
+            }
+            .adress-check-2 div {
+                display: inline-block;
+                float: right;
+            }
+            .adress-check-1 .checkbox, 
+            .adress-check-2 .checkbox  {
+                display: inline-block;
+                float: left;
+                height: 20px;
+                width: 20px;
+                margin: 0 3px;
+                margin-bottom: 5px;
+                background: rgb(255, 255, 255);
+                border: 1px solid rgb(211, 213, 222);
+                cursor: pointer;
+                border-radius: 3px;
+            }
+            
+
+
+    .adress-top-right {
+        display: inline-block;
+        float: right;
+        width: 25%;
+        padding: 16px;
+        background-color: rgb(247, 248, 248);
+        border-radius: 8px;
+    }
+        .adress-phone {
+            font-size: 14px;
+            line-height: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: rgb(115, 121, 140);
+        }
+        .adress-number {
+            font-size: 15px;
+            line-height: 19px;
+            color: rgb(0, 0, 0);
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            margin-bottom: 30px;
+            margin-top: 5px;
+        }
+            .adress-number:hover {
+                color: rgb(209, 87, 0);
+            }
+        .adress-question {
+            font-size: 14px;
+            line-height: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: rgb(115, 121, 140);
+        }
+        .adress-email {
+            font-size: 15px;
+            line-height: 19px;
+            color: rgb(0, 0, 0);
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+.adress-bottom {
+    display: inline-block;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+    .adress-bottom-items {
+
+    }
+        .adress-bottom-item {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+            .adress-bottom-item h3 {
+                font-size: 20px;
+                line-height: 24px;
+                color: rgb(0, 0, 0);
+                font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-weight: 400;
+                text-decoration: none;
+                cursor: pointer;
+                margin-bottom: 5px;
+            }
+            .adress-bottom-item h5 {
+                font-size: 15px;
+                line-height: 21px;
+                margin-top: 15px;
+                margin-bottom: 11px;
+                font-weight: 400;
+            }
+            .adress-bottom-par {
+                display: block;
+                color: rgb(0, 0, 0);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-size: 15px;
+                line-height: 21px;
+                margin-top: 15px;
+                margin-bottom: 11px;
+            }
+            .adress-bottom-par p:first-of-type{
+                margin: 5px 0;
+            }

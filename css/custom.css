@@ -1,0 +1,243 @@
+.pizza, .snacks, .desserts, .drinks{
+    gap: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 292px;
+        transition: border 0.5s, transform 0.5s;
+        justify-content:space-between;
+    }
+    .item:last-child {
+        justify-content: none !important;
+    }
+    .title {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        font-weight: 500;
+        font-size: 24px;
+        margin: 60px 0 20px;
+    }
+    .image {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        margin: 0px;
+        border-radius: 12px;
+        image-rendering: auto;
+        cursor: pointer;
+        transition: top 150ms ease-out 0s;
+    }
+    .name {
+        margin: 8px 0px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        line-height: 24px;
+        font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        text-align: left;
+    }
+    .description {
+        color: rgb(115, 121, 140);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        padding: 0;
+        margin: 15px 0;
+        font-family: "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        
+    }
+    .price-left {
+        display: inline-block;
+        float: left;
+        width: 40%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+    }
+    .price-right {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #fdefe6;
+        text-align: center;
+        color: rgb(209, 87, 0);
+        font-weight: 500;
+        cursor: pointer;
+        min-width: 120px;
+        height: 37px;
+        padding: 8px 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .price-right:hover {
+        background-color: #f9d1b3;
+    }
+
+
+.delivery{
+    line-height: 1.4;
+}
+    .deliveryColumn {
+
+        display: inline-block;
+        float: left;
+        width: 35%;
+        margin-right: 4%;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .deliveryColumnRight {
+
+        display: inline-block;
+        float: right;
+        width: 22%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .deliveryTittle {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        font-weight: 500;
+        font-size: 24px;
+        margin: 32px 0px;
+    }
+    .row .red{
+        font-weight: 500;
+        font-size: 18px;
+        color: rgb(255, 105, 0);
+        text-transform: uppercase;
+        margin: 0px 0px 5px;
+    }
+    .zona {
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(255, 105, 0);
+        text-transform: uppercase;
+        margin: 0px 0px 5px;
+    }
+    .deliveryColumn p {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .map-parent {
+        overflow: hidden;
+        height: 240px;
+    }
+    .map {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/DodopizzaMaps.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: block;
+        height: 236px;
+        overflow: hidden;
+        border-radius: 10px;
+    
+    }
+    .map-parent:hover .map,
+    .map-parent:focus .map{
+        transform: scale(1.4);    
+        transition: transform 4s ease;
+        border-radius: 10px;
+    }
+    .map:hover{
+        border-radius: 10px;
+    }
+    .maps-zona{
+        position: absolute;
+        margin-top: -135px;
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    :root {
+        --item-count: 10;
+        --item-par-view: 1;
+      }
+
+    .hero {
+        position: relative;
+    }
+
+    .slider {
+        overflow: hidden;
+        display: inline-block;
+        width: 100%;
+      }
+      
+      .slider > .list {
+        display: inline-block;
+        float: left;
+        text-align: center;
+        width: calc(100% * var(--item-count) / var(--item-par-view));
+        transition: all 1s;
+        position: relative;
+      }
+      .slider > .list > .item {
+        display: inline-block;
+        float: left;
+        width: calc(100% / var(--item-count));
+        border: 1px solid transparent;
+      }
+      
+      .item > img {
+        width: 100%;
+        border-radius: 25px;
+      }
+
+      .slider .controls {display: none; transition:all 0.5s !important;}
+      .slider:hover .controls {display: block;}
+      
+      .controls {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: -30px;
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+
+      }
+      
+      .controls > .bubble {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background-color: rgb(84, 76, 72);
+        border-radius: 50%;
+        margin: 0 5px;
+        transition: background-color 300ms ease-out 0s;
+        cursor: pointer;
+
+      }
+      
+      .controls > .bubble:hover,
+      .controls > .bubble.active {
+        background-color: rgb(197, 202, 206);
+      }
+
+
+      @media only screen and (max-width: 1439px){
+        .item {
+              width: 233px;
+        }
+    }
+      @media only screen and (max-width: 1279px){
+          .item {
+                width: 217px;
+          }
+      }
